@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    /* border: solid; */
+    /* width: 50%; */
+    text-decoration: underline;
+    font-family: serif;
+}
+h3{
+    text-align: right;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+p{
+    text-align: right;
+    font-weight: normal;
+    /* text-decoration: overline; */
+    
+} 
+h2{
+    font-weight: 700;
+}

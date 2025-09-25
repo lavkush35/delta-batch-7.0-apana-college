@@ -1,0 +1,48 @@
+#container{
+    height: 500px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /*flex means in all div is row */
+    flex-direction: row;
+    justify-content: flex-start;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse;  */
+
+    /* align-items: flex-start; */
+    /* align-items:flex-end; */
+    /* align-items:center; */
+    /* align-items:baseline; */
+
+    /* align-content: flex-start;  */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-evenly; */
+}
+
+#blue {
+    /* flex-basis:100px; */
+    flex-grow: 2;
+    /* flex-shrink: 3; */
+    
+}
+#org {
+    /* flex-basis:400px; */
+    /* flex-grow: 2; */
+    /* flex-shrink:1; */
+    flex: 2 2 100px;
+}
+h1{
+    text-align: center;
+    
+}
+
+#container div {
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
